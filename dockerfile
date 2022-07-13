@@ -7,7 +7,7 @@ LABEL version="0.0.1"
 LABEL maitainer="bommireddysai@gmail.com"
 
 # Updateing the work DIR
-WORKDIR /usr/share/nginx/htm
+WORKDIR /usr/share/nginx/html
 
 # Replace Index.html with Custom file
 COPY index.html index.html
