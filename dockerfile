@@ -7,6 +7,6 @@ RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install nginx -yu
 
-EXPOSE 9111
+EXPOSE 90
 
 CMD [ "nginx", "-g","daemon off;" ]
